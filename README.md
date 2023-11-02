@@ -1,5 +1,3 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
-
 ## スクショ
 <img width="401" alt="スクリーンショット 2023-11-03 3 08 32" src="https://github.com/toyoshin5/AppleMusicClone-with-ReactNative/assets/43494392/d777468d-124c-4e35-8aa9-c4108c980c03">
 
