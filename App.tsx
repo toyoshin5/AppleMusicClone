@@ -7,6 +7,8 @@
 
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
+//アイコン
+import Icon from 'react-native-vector-icons/FontAwesome';
 import React from 'react';
 
 import {
@@ -19,7 +21,7 @@ import {
 } from 'react-native';
 
 import {
-  Divider,
+  Divider, SocialIcon,
 } from 'react-native-elements';
 //色の定義
 const colors = {
@@ -115,7 +117,7 @@ const SongsArea = () => {
     }}>
       {songs.map((song, index) => {
         return (
-          <SongItem number={String(index + 1)} name={song} onPress={() => { }} />
+          <SongItem number={String(index + 1)} name={song} onPress={() => { }} key={index + 1} />
         )
       })}
 
@@ -133,6 +135,7 @@ const SongItem = ({ number, name, onPress }: { number: String; name: String; onP
     }}>
       <Text style={styles.songNumText}>{number}</Text>
       <Text style={styles.songItemText}>{name}</Text>
+      <Icon name="home" size={10} />
     </TouchableOpacity><Divider style={{ marginLeft: 24 }} /></>
   )
 }
