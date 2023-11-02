@@ -7,7 +7,7 @@
 ### iOS
 
 ```sh
-yarn ios
+yarn install
 ```
 
 その後、
