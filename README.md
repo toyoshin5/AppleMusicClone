@@ -1,5 +1,8 @@
-## スクショ
+
 <img width="401" alt="スクリーンショット 2023-11-03 3 08 32" src="https://github.com/toyoshin5/AppleMusicClone-with-ReactNative/assets/43494392/d777468d-124c-4e35-8aa9-c4108c980c03">
+
+
+![music_reactnative](https://github.com/toyoshin5/AppleMusicClone-with-ReactNative/assets/43494392/f25b9179-05cc-4200-8e82-4683e1999c45)
 
 
 ## 実行方法
